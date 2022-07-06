@@ -41,7 +41,6 @@ if [ -z ${token+x} ];
         token=$GITHUB_TOKEN
 fi
 
-
 # Obtain open issues for a repository
 response=$(curl -0 "https://api.github.com/repos/${owner}/${repository}/issues?state=open" \
   -H "Accept: application/vnd.github+json" \
