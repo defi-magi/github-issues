@@ -1,0 +1,37 @@
+# file extensions
+*.bak
+*.swp
+*.log
+*.backup
+
+# terraform
+.terraform*
+!.terraform-docs.yml
+*/.terraform*
+*/*/.terraform*
+terraform.tfstate
+terraform.tfstate.lock
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.crt
+*.pem
+*.publishsettings
+
+# misc
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+selections.json
+terraform-provider-*
+docs/_build
